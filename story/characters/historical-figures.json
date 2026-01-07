@@ -4,6 +4,59 @@
   "description": "Historical figures relevant to The Harvester's Sky murder mystery game, set in 1274 CE at the Mongol court in Tabriz",
   "figures": [
     {
+      "id": "joachim-of-fiore",
+      "name": {
+        "primary": "Joachim of Fiore",
+        "alternates": ["Joachim of Flora", "Gioacchino da Fiore"]
+      },
+      "dates": {
+        "birth": "c. 1135",
+        "death": "1202"
+      },
+      "titles": [
+        {
+          "title": "Abbot",
+          "description": "Cistercian monk and founder of San Giovanni in Fiore monastery",
+          "period": "1177-1202"
+        },
+        {
+          "title": "Prophet",
+          "description": "Apocalyptic visionary and theologian",
+          "period": "1180s-1202"
+        }
+      ],
+      "category": "Papal Envoys & Friars",
+      "gameRelevance": {
+        "role": "Influential apocalyptic theologian",
+        "description": "Italian mystic whose prophecies about three ages of history profoundly influenced 13th-century Franciscan thought and apocalyptic movements. Died in 1202 but his ideas dominate religious discourse in 1274.",
+        "narrative": "His three ages theory (Age of Father/Old Testament, Age of Son/New Testament, Age of Spirit/coming renewal) could parallel the game's cosmic layers. Franciscan envoys would carry his writings. His apocalyptic vision could inspire The Harvesters' ideology about cosmic cycles and transformation."
+      },
+      "relationships": [
+        {
+          "figureId": "pope-innocent-iv",
+          "type": "influenced-successor"
+        },
+        {
+          "figureId": "giovanni-carpine",
+          "type": "influenced-franciscans"
+        },
+        {
+          "figureId": "william-rubruck",
+          "type": "influenced-franciscans"
+        }
+      ],
+      "historical": {
+        "summary": "Cistercian abbot who developed apocalyptic theology dividing history into three ages corresponding to the Trinity. His prophecies about the imminent Age of the Spirit influenced Franciscan Spirituals and medieval eschatology for centuries.",
+        "significance": "His apocalyptic framework shaped 13th-century religious thought. Condemned posthumously at Fourth Lateran Council (1215) but remained hugely influential. His ideas about historical ages and cosmic renewal are directly relevant to the game's themes.",
+        "sources": ["Book of Concordance", "Exposition on the Apocalypse", "Psaltery of Ten Strings"]
+      },
+      "tags": ["italian", "cistercian", "mystic", "apocalyptic", "pre-1274", "prophet", "franciscan-influence", "three-ages", "eschatology"],
+      "meta": {
+        "addedDate": "2026-01-07",
+        "lastModified": "2026-01-07"
+      }
+    },
+    {
       "id": "genghis-khan",
       "name": {
         "primary": "Genghis Khan",
