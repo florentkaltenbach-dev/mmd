@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "lastUpdated": "2026-01-07",
-  "description": "Historical figures relevant to The Harvester's Sky murder mystery game, set in 1274 CE at the Mongol court in Tabriz",
+  "description": "Historical figures known and relevant around 1270 at the Mongol court in Tabriz",
   "figures": [
     {
       "id": "joachim-of-fiore",
@@ -28,7 +28,7 @@
       "category": "Papal Envoys & Friars",
       "gameRelevance": {
         "role": "Influential apocalyptic theologian",
-        "description": "Italian mystic whose prophecies about three ages of history profoundly influenced 13th-century Franciscan thought and apocalyptic movements. Died in 1202 but his ideas dominate religious discourse in 1274.",
+        "description": "Italian mystic whose prophecies about three ages of history profoundly influenced 13th-century Franciscan thought and apocalyptic movements. Died in 1202 but his ideas dominate religious discourse throughout the century.",
         "narrative": "His three ages theory (Age of Father/Old Testament, Age of Son/New Testament, Age of Spirit/coming renewal) could parallel the game's cosmic layers. Franciscan envoys would carry his writings. His apocalyptic vision could inspire The Harvesters' ideology about cosmic cycles and transformation."
       },
       "relationships": [
@@ -1458,6 +1458,753 @@
         "sources": ["Russian chronicles", "Golden Horde records"]
       },
       "tags": ["mongol", "khan", "golden-horde", "pre-1274", "russia", "conqueror"],
+      "meta": {
+        "addedDate": "2026-01-07",
+        "lastModified": "2026-01-07"
+      }
+    },
+    {
+      "id": "benedykt-polak",
+      "name": {
+        "primary": "Benedykt Polak",
+        "alternates": ["Benedict the Pole", "Benedictus Polonus"]
+      },
+      "dates": {
+        "birth": "unknown",
+        "death": "unknown"
+      },
+      "titles": [
+        {
+          "title": "Franciscan Friar",
+          "description": "Interpreter and companion to Giovanni da Pian del Carpine",
+          "period": "1245-1247"
+        }
+      ],
+      "category": "Papal Envoys & Friars",
+      "gameRelevance": {
+        "role": "Franciscan interpreter on first papal mission",
+        "description": "Polish Franciscan who served as interpreter for Carpine's mission to the Mongol court. Spoke multiple languages and wrote his own account of the journey.",
+        "narrative": "Linguistic expert who could decode written messages or interpret conversations. His account 'De Itinere Fratrum Minorum ad Tartaros' might be carried by later envoys."
+      },
+      "relationships": [
+        {
+          "figureId": "giovanni-carpine",
+          "type": "traveling-companion"
+        },
+        {
+          "figureId": "guyuk-khan",
+          "type": "met-envoy"
+        }
+      ],
+      "historical": {
+        "summary": "Polish Franciscan friar who accompanied Giovanni da Pian del Carpine as interpreter on the first papal mission to the Mongol Empire (1245-1247). Wrote his own account of the journey.",
+        "significance": "His linguistic skills were essential to the mission's success. His independent account provides corroboration and additional details to Carpine's Historia Mongalorum.",
+        "sources": ["De Itinere Fratrum Minorum ad Tartaros"]
+      },
+      "tags": ["papal", "franciscan", "interpreter", "pre-1274", "polish", "linguist", "traveler"],
+      "meta": {
+        "addedDate": "2026-01-07",
+        "lastModified": "2026-01-07"
+      }
+    },
+    {
+      "id": "andrew-longjumeau",
+      "name": {
+        "primary": "Andrew of Longjumeau",
+        "alternates": ["André de Longjumeau"]
+      },
+      "dates": {
+        "birth": "unknown",
+        "death": "unknown"
+      },
+      "titles": [
+        {
+          "title": "Dominican Friar",
+          "description": "Envoy to the Mongol Empire",
+          "period": "1245-1253"
+        }
+      ],
+      "category": "Papal Envoys & Friars",
+      "gameRelevance": {
+        "role": "Dominican envoy with multiple missions",
+        "description": "Led two missions to the Mongol Empire for Louis IX of France (1245-46 and 1249-51). Experienced diplomat who traveled extensively through Mongol territories.",
+        "narrative": "Veteran diplomat who could provide intelligence about earlier Mongol contacts. His account preserved in Matthew Paris's chronicle would be known to educated characters."
+      },
+      "relationships": [
+        {
+          "figureId": "louis-ix-france",
+          "type": "patron"
+        }
+      ],
+      "historical": {
+        "summary": "Dominican friar sent on two diplomatic missions to the Mongols by Louis IX of France. First mission (1245-46) to gather intelligence, second mission (1249-51) carried letters to Mongol khan.",
+        "significance": "One of the earliest European envoys to the Mongols. His reports influenced French policy toward potential Mongol alliance.",
+        "sources": ["Matthew Paris's Chronica Majora"]
+      },
+      "tags": ["papal", "dominican", "envoy", "pre-1274", "french", "diplomat"],
+      "meta": {
+        "addedDate": "2026-01-07",
+        "lastModified": "2026-01-07"
+      }
+    },
+    {
+      "id": "simon-saint-quentin",
+      "name": {
+        "primary": "Simon of Saint-Quentin",
+        "alternates": ["Simon de Saint-Quentin"]
+      },
+      "dates": {
+        "birth": "unknown",
+        "death": "unknown"
+      },
+      "titles": [
+        {
+          "title": "Dominican Friar",
+          "description": "Envoy and chronicler",
+          "period": "1245-1248"
+        }
+      ],
+      "category": "Papal Envoys & Friars",
+      "gameRelevance": {
+        "role": "Dominican envoy who traveled through Tabriz",
+        "description": "Traveled through Tabriz itself on diplomatic mission (1245-1248). His firsthand knowledge of the city and region makes him directly relevant.",
+        "narrative": "CRITICAL: Actually visited Tabriz before 1274. Could have established contacts, learned local rumors, or left documents there. His account in Matthew Paris might contain clues."
+      },
+      "relationships": [],
+      "historical": {
+        "summary": "Dominican friar who traveled through Tabriz and other Mongol territories on diplomatic mission. His account was incorporated into Matthew Paris's chronicles.",
+        "significance": "One of few early European visitors to Tabriz specifically. Provides eyewitness testimony of Mongol-controlled Persia.",
+        "sources": ["Matthew Paris's Chronica Majora"]
+      },
+      "tags": ["papal", "dominican", "envoy", "pre-1274", "tabriz-visitor", "chronicler"],
+      "meta": {
+        "addedDate": "2026-01-07",
+        "lastModified": "2026-01-07"
+      }
+    },
+    {
+      "id": "niccolo-polo",
+      "name": {
+        "primary": "Niccolò Polo",
+        "alternates": ["Nicolo Polo"]
+      },
+      "dates": {
+        "birth": "c. 1230",
+        "death": "1294"
+      },
+      "titles": [
+        {
+          "title": "Venetian Merchant",
+          "description": "Trader on the Silk Road",
+          "period": "1260-1294"
+        }
+      ],
+      "category": "Travelers & Merchants",
+      "gameRelevance": {
+        "role": "Marco Polo's father, experienced Silk Road traveler",
+        "description": "Made first journey to Kublai Khan's court (1260-69) with his brother Maffeo. In 1274 traveling east again with his son Marco. Knows the routes, the dangers, and the politics.",
+        "narrative": "Could be passing through Tabriz or nearby. Carries stories of previous journeys, knows trade networks, might have encountered kurgan sites or heard steppe legends."
+      },
+      "relationships": [
+        {
+          "figureId": "marco-polo",
+          "type": "father"
+        },
+        {
+          "figureId": "maffeo-polo",
+          "type": "brother"
+        },
+        {
+          "figureId": "kublai-khan",
+          "type": "patron"
+        }
+      ],
+      "historical": {
+        "summary": "Venetian merchant and father of Marco Polo. Made groundbreaking journey to Kublai Khan's court (1260-69), then returned to Venice and departed again in 1271 with his son Marco.",
+        "significance": "His first journey established the Polo family's relationship with Kublai Khan and opened Venetian trade routes through Mongol territories.",
+        "sources": ["Marco Polo's Travels (Il Milione)"]
+      },
+      "tags": ["venetian", "merchant", "traveler", "1274-present", "silk-road", "kublai-connection", "alive-1274"],
+      "meta": {
+        "addedDate": "2026-01-07",
+        "lastModified": "2026-01-07"
+      }
+    },
+    {
+      "id": "maffeo-polo",
+      "name": {
+        "primary": "Maffeo Polo",
+        "alternates": ["Maffio Polo"]
+      },
+      "dates": {
+        "birth": "c. 1230",
+        "death": "1309"
+      },
+      "titles": [
+        {
+          "title": "Venetian Merchant",
+          "description": "Trader on the Silk Road",
+          "period": "1260-1309"
+        }
+      ],
+      "category": "Travelers & Merchants",
+      "gameRelevance": {
+        "role": "Marco Polo's uncle, traveling companion",
+        "description": "Brother of Niccolò, made the first journey to Kublai Khan's court together (1260-69). In 1274 traveling east again with Niccolò and young Marco.",
+        "narrative": "Third member of the Polo traveling party. Could provide different perspective on events, know different trade contacts, or have picked up different information."
+      },
+      "relationships": [
+        {
+          "figureId": "niccolo-polo",
+          "type": "brother"
+        },
+        {
+          "figureId": "marco-polo",
+          "type": "uncle"
+        },
+        {
+          "figureId": "kublai-khan",
+          "type": "patron"
+        }
+      ],
+      "historical": {
+        "summary": "Venetian merchant, brother of Niccolò and uncle of Marco Polo. Traveled to Kublai Khan's court (1260-69) and again (1271-95) with the family.",
+        "significance": "Partner in the Polo family trading ventures. Survived longer than his brother, returning to Venice and continuing business.",
+        "sources": ["Marco Polo's Travels (Il Milione)"]
+      },
+      "tags": ["venetian", "merchant", "traveler", "1274-present", "silk-road", "alive-1274"],
+      "meta": {
+        "addedDate": "2026-01-07",
+        "lastModified": "2026-01-07"
+      }
+    },
+    {
+      "id": "giovanni-montecorvino",
+      "name": {
+        "primary": "Giovanni da Montecorvino",
+        "alternates": ["John of Montecorvino"]
+      },
+      "dates": {
+        "birth": "1247",
+        "death": "1328"
+      },
+      "titles": [
+        {
+          "title": "Franciscan Friar",
+          "description": "Missionary to the East",
+          "period": "1270s-1328"
+        },
+        {
+          "title": "Archbishop of Beijing",
+          "description": "First Catholic archbishop in China",
+          "period": "1307-1328"
+        }
+      ],
+      "category": "Papal Envoys & Friars",
+      "gameRelevance": {
+        "role": "Young Franciscan missionary in 1274",
+        "description": "27 years old in 1274, doing missionary work before his famous journey to China. Later became first Catholic Archbishop of Beijing. Zealous, idealistic, linguistically gifted.",
+        "narrative": "Could be at the Tabriz court as a young friar. His later success in China shows determination and cross-cultural skills. Might witness events that shape his future mission."
+      },
+      "relationships": [],
+      "historical": {
+        "summary": "Italian Franciscan who traveled to China (1294) and became the first Catholic Archbishop of Beijing. Wrote important letters (1305-1306) describing his missionary work and requesting support.",
+        "significance": "Established the first Catholic mission in China. His letters are key sources for understanding Mongol-era China and Christian missionary efforts.",
+        "sources": ["Letters of 1305-1306", "Papal correspondence"]
+      },
+      "tags": ["franciscan", "missionary", "italian", "1274-present", "young", "future-archbishop", "china", "alive-1274"],
+      "meta": {
+        "addedDate": "2026-01-07",
+        "lastModified": "2026-01-07"
+      }
+    },
+    {
+      "id": "chang-te",
+      "name": {
+        "primary": "Ch'ang Te",
+        "alternates": ["Chang Te"]
+      },
+      "dates": {
+        "birth": "unknown",
+        "death": "unknown"
+      },
+      "titles": [
+        {
+          "title": "Chinese Envoy",
+          "description": "Official sent by Möngke Khan to Hülegü",
+          "period": "1259"
+        }
+      ],
+      "category": "Travelers & Merchants",
+      "gameRelevance": {
+        "role": "Chinese envoy who documented Mongol campaigns",
+        "description": "Chinese official sent by Möngke Khan to Hülegü's western campaigns. Wrote travel journal documenting the military operations and the lands conquered.",
+        "narrative": "Represents the Chinese perspective on Mongol expansion. His journal might contain observations about disturbed ancient sites during sieges and campaigns."
+      },
+      "relationships": [
+        {
+          "figureId": "mongke-khan",
+          "type": "patron"
+        },
+        {
+          "figureId": "hulagu-khan",
+          "type": "met-envoy"
+        }
+      ],
+      "historical": {
+        "summary": "Chinese envoy sent by Möngke Khan to observe and report on Hülegü's western campaigns in 1259. Wrote a travel journal describing the campaigns and conquered territories.",
+        "significance": "Rare Chinese eyewitness account of the Mongol western campaigns. Provides different cultural perspective on the same events described by Persian and European sources.",
+        "sources": ["Travel journal and campaign account (Chinese chronicles)"]
+      },
+      "tags": ["chinese", "envoy", "pre-1274", "chronicler", "mongol-campaigns"],
+      "meta": {
+        "addedDate": "2026-01-07",
+        "lastModified": "2026-01-07"
+      }
+    },
+    {
+      "id": "ata-malik-juvaini",
+      "name": {
+        "primary": "Ata-Malik Juvaini",
+        "alternates": ["Ala al-Din Ata Malik Juvayni"]
+      },
+      "dates": {
+        "birth": "1226",
+        "death": "1283"
+      },
+      "titles": [
+        {
+          "title": "Persian Historian",
+          "description": "Governor and chronicler under the Mongols",
+          "period": "1256-1283"
+        },
+        {
+          "title": "Governor of Baghdad",
+          "description": "Mongol-appointed administrator",
+          "period": "1259-1283"
+        }
+      ],
+      "category": "Islamic Scholars",
+      "gameRelevance": {
+        "role": "Court historian and insider, alive in 1274",
+        "description": "Persian historian who served the Mongols, including Hulagu. In 1274 he is 48 years old and Governor of Baghdad. Witnessed the sack of Baghdad firsthand. Wrote the definitive Tarikh-i Jahangushay (History of the World Conqueror).",
+        "narrative": "CRITICAL COURT INSIDER. Could be at Tabriz for official business. Knows secrets of the conquest, witnessed destruction of ancient sites, might have seen things in Baghdad's ruins. His history is THE primary source."
+      },
+      "relationships": [
+        {
+          "figureId": "hulagu-khan",
+          "type": "patron"
+        },
+        {
+          "figureId": "abaqa-khan",
+          "type": "patron"
+        },
+        {
+          "figureId": "rashid-al-din",
+          "type": "colleague"
+        }
+      ],
+      "historical": {
+        "summary": "Persian historian who served the Mongol Ilkhanate as governor and chronicler. Witnessed Hulagu's conquest of Baghdad (1258) and wrote the Tarikh-i Jahangushay, the most important contemporary history of the Mongol conquests in Persia.",
+        "significance": "PRIMARY SOURCE for Mongol conquest of Persia. His eyewitness account of Baghdad's fall is unmatched. Provides insider perspective on Mongol administration.",
+        "sources": ["Tarikh-i Jahangushay (History of the World Conqueror)"]
+      },
+      "tags": ["persian", "historian", "chronicler", "1274-present", "court-insider", "baghdad-witness", "governor", "alive-1274"],
+      "meta": {
+        "addedDate": "2026-01-07",
+        "lastModified": "2026-01-07"
+      }
+    },
+    {
+      "id": "bar-hebraeus",
+      "name": {
+        "primary": "Bar Hebraeus",
+        "alternates": ["Gregory Bar Hebraeus", "Abu al-Faraj"]
+      },
+      "dates": {
+        "birth": "1226",
+        "death": "1286"
+      },
+      "titles": [
+        {
+          "title": "Maphrian",
+          "description": "Syriac Orthodox bishop, second-highest rank",
+          "period": "1264-1286"
+        },
+        {
+          "title": "Polymath",
+          "description": "Scholar in theology, philosophy, medicine, astronomy",
+          "period": "1240s-1286"
+        }
+      ],
+      "category": "Islamic Scholars",
+      "gameRelevance": {
+        "role": "Syriac bishop and court insider, alive in 1274",
+        "description": "Brilliant Syriac Christian scholar (age 48 in 1274) who lived through the Mongol conquests. Wrote contemporary Chronography covering events up to his death. Polymath with knowledge of medicine, astronomy, philosophy.",
+        "narrative": "PERFECT INVESTIGATOR CHARACTER. Court insider, multilingual, scientifically educated. Could be consulting with Nasir al-Din al-Tusi. His Chronography provides contemporary eyewitness perspective on 1274 events."
+      },
+      "relationships": [
+        {
+          "figureId": "nasir-al-din-tusi",
+          "type": "colleague"
+        },
+        {
+          "figureId": "abaqa-khan",
+          "type": "patron"
+        }
+      ],
+      "historical": {
+        "summary": "Syriac Orthodox bishop and polymath who lived through the Mongol conquests. Wrote comprehensive Chronography covering world history to 1286, plus works on theology, philosophy, astronomy, and medicine.",
+        "significance": "Contemporary witness to the events of 1274. His works bridge Syriac Christian, Arabic, and Persian scholarly traditions. Provides unique insider perspective on Mongol court.",
+        "sources": ["Chronography", "Book of the Dove", "astronomical works"]
+      },
+      "tags": ["syriac", "christian", "bishop", "polymath", "chronicler", "1274-present", "court-insider", "astronomer", "alive-1274"],
+      "meta": {
+        "addedDate": "2026-01-07",
+        "lastModified": "2026-01-07"
+      }
+    },
+    {
+      "id": "kirakos-gandzaketsi",
+      "name": {
+        "primary": "Kirakos Gandzaketsi",
+        "alternates": ["Kirakos of Ganja"]
+      },
+      "dates": {
+        "birth": "c. 1200",
+        "death": "1271"
+      },
+      "titles": [
+        {
+          "title": "Armenian Chronicler",
+          "description": "Monk and historian",
+          "period": "1240s-1271"
+        }
+      ],
+      "category": "Islamic Scholars",
+      "gameRelevance": {
+        "role": "Armenian chronicler captured by Mongols, died 1271",
+        "description": "Armenian monk who was captured by Mongols, learned their language, and wrote firsthand account. Died in 1271, just 3 years before game setting. His History of the Armenians covers Mongol invasions.",
+        "narrative": "Recently dead (1271). His chronicle ends just before your setting. Could have left behind documents, warnings, or observations about disturbed sites. Armenian community might reference his writings."
+      },
+      "relationships": [],
+      "historical": {
+        "summary": "Armenian monk and historian captured by Mongols during their invasions. Learned Mongolian language and wrote detailed firsthand account of Mongol conquests from Armenian perspective.",
+        "significance": "Rare firsthand Armenian account of Mongol invasions. His capture and linguistic skills gave him unique access to Mongol perspective. Chronicle is primary source for Armenian history under Mongols.",
+        "sources": ["History of the Armenians"]
+      },
+      "tags": ["armenian", "chronicler", "monk", "pre-1274", "mongol-captive", "linguist", "recently-deceased"],
+      "meta": {
+        "addedDate": "2026-01-07",
+        "lastModified": "2026-01-07"
+      }
+    },
+    {
+      "id": "wassaf",
+      "name": {
+        "primary": "Wassaf",
+        "alternates": ["Sharaf al-Din Abdullah Shirazi"]
+      },
+      "dates": {
+        "birth": "1264",
+        "death": "1334"
+      },
+      "titles": [
+        {
+          "title": "Persian Historian",
+          "description": "Court chronicler and panegyrist",
+          "period": "1299-1334"
+        }
+      ],
+      "category": "Islamic Scholars",
+      "gameRelevance": {
+        "role": "Young boy in 1274, future historian",
+        "description": "Only 10 years old in 1274. Would later write Tajziyat al-amsar, continuing Juvaini's history. Could be present at court as a child, witnessing events that shape his future work.",
+        "narrative": "Optional child witness. His later continuation of Juvaini's work shows he had access to court sources and oral traditions. Could observe events through innocent eyes."
+      },
+      "relationships": [
+        {
+          "figureId": "ata-malik-juvaini",
+          "type": "successor"
+        }
+      ],
+      "historical": {
+        "summary": "Persian historian who continued Juvaini's chronicle with Tajziyat al-amsar (Allotment of Cities), covering period from 1257 to 1312. Known for ornate prose style and court panegyrics.",
+        "significance": "Important continuation of Juvaini's work. Provides additional details on Ilkhanate court and later developments. His access to sources suggests court connections.",
+        "sources": ["Tajziyat al-amsar"]
+      },
+      "tags": ["persian", "historian", "post-1274", "1274-present", "child", "future-chronicler", "alive-1274"],
+      "meta": {
+        "addedDate": "2026-01-07",
+        "lastModified": "2026-01-07"
+      }
+    },
+    {
+      "id": "thomas-aquinas",
+      "name": {
+        "primary": "Thomas Aquinas",
+        "alternates": ["Saint Thomas Aquinas", "Doctor Angelicus"]
+      },
+      "dates": {
+        "birth": "1225",
+        "death": "1274"
+      },
+      "titles": [
+        {
+          "title": "Dominican Friar",
+          "description": "Theologian and philosopher",
+          "period": "1244-1274"
+        },
+        {
+          "title": "Doctor of the Church",
+          "description": "Posthumous title",
+          "period": "posthumous"
+        }
+      ],
+      "category": "Papal Envoys & Friars",
+      "gameRelevance": {
+        "role": "Greatest medieval theologian, DIES IN 1274",
+        "description": "CRITICAL: Dies in March 1274 en route to Council of Lyon under MYSTERIOUS CIRCUMSTANCES. Age 49. Most influential theologian of the age. His death months before your setting adds to the pattern of 1274 deaths.",
+        "narrative": "MULTIPLE MYSTERIOUS DEATHS IN 1274! Aquinas dies mysteriously, Nasir al-Din al-Tusi dies, Bonaventure dies at the Council. Coincidence? His Summa Theologica addresses angels, demons, and cosmic order - relevant to egregore/Sleeper cosmology."
+      },
+      "relationships": [
+        {
+          "figureId": "pope-gregory-x",
+          "type": "patron"
+        },
+        {
+          "figureId": "bonaventure",
+          "type": "colleague"
+        }
+      ],
+      "historical": {
+        "summary": "Dominican friar and the most influential medieval theologian. Author of Summa Theologica. Died mysteriously in March 1274 while traveling to the Second Council of Lyon, summoned by Pope Gregory X.",
+        "significance": "DIES IN 1274. His death was controversial - some suspected poisoning. His theological framework shaped Catholic doctrine for centuries. His works on angels, divine order, and metaphysics are relevant to the game's cosmology.",
+        "sources": ["Summa Theologica", "Summa contra Gentiles", "De ente et essentia"]
+      },
+      "tags": ["dominican", "theologian", "philosopher", "christian", "dies-1274", "mysterious-death", "council-of-lyon", "italian"],
+      "meta": {
+        "addedDate": "2026-01-07",
+        "lastModified": "2026-01-07"
+      }
+    },
+    {
+      "id": "bonaventure",
+      "name": {
+        "primary": "Bonaventure",
+        "alternates": ["Saint Bonaventure", "Giovanni di Fidanza", "Doctor Seraphicus"]
+      },
+      "dates": {
+        "birth": "1221",
+        "death": "1274"
+      },
+      "titles": [
+        {
+          "title": "Minister General of the Franciscans",
+          "description": "Head of the Franciscan Order",
+          "period": "1257-1274"
+        },
+        {
+          "title": "Cardinal Bishop",
+          "description": "Cardinal Bishop of Albano",
+          "period": "1273-1274"
+        }
+      ],
+      "category": "Papal Envoys & Friars",
+      "gameRelevance": {
+        "role": "Franciscan leader, DIES IN 1274",
+        "description": "CRITICAL: Dies in July 1274 AT THE COUNCIL OF LYON. Age 53. Leader of the Franciscan order. His death at the council adds to the pattern of 1274 deaths. Influenced by Joachim of Fiore's apocalyptic vision.",
+        "narrative": "ANOTHER 1274 DEATH! Minister General of the Franciscans - all your papal envoys answer to him. His death at the Council where Mongol alliance is discussed is suspicious. His mystical theology influenced by Joachimite apocalypticism."
+      },
+      "relationships": [
+        {
+          "figureId": "pope-gregory-x",
+          "type": "patron"
+        },
+        {
+          "figureId": "thomas-aquinas",
+          "type": "colleague"
+        },
+        {
+          "figureId": "joachim-of-fiore",
+          "type": "influenced-by"
+        },
+        {
+          "figureId": "giovanni-carpine",
+          "type": "franciscan-brother"
+        },
+        {
+          "figureId": "william-rubruck",
+          "type": "franciscan-brother"
+        }
+      ],
+      "historical": {
+        "summary": "Franciscan theologian and mystic, Minister General of the Franciscan Order. Cardinal Bishop in 1273. Died at the Second Council of Lyon in July 1274. Influenced by Joachite apocalyptic thought.",
+        "significance": "DIES IN 1274 at Council of Lyon. Leader of Franciscan Order means all Franciscan envoys to Mongols operate under his authority. His mystical theology and Joachimite influences connect to apocalyptic themes.",
+        "sources": ["Itinerarium Mentis in Deum", "Legenda Maior (Life of St. Francis)"]
+      },
+      "tags": ["franciscan", "theologian", "mystic", "dies-1274", "council-of-lyon", "minister-general", "joachimite-influence", "italian"],
+      "meta": {
+        "addedDate": "2026-01-07",
+        "lastModified": "2026-01-07"
+      }
+    },
+    {
+      "id": "pope-gregory-x",
+      "name": {
+        "primary": "Pope Gregory X",
+        "alternates": ["Teobaldo Visconti"]
+      },
+      "dates": {
+        "birth": "1210",
+        "death": "1276",
+        "reign": {
+          "start": "1271",
+          "end": "1276"
+        }
+      },
+      "titles": [
+        {
+          "title": "Pope",
+          "description": "Head of the Catholic Church",
+          "period": "1271-1276"
+        }
+      ],
+      "category": "Papal Envoys & Friars",
+      "gameRelevance": {
+        "role": "THE reigning Pope in 1274, pushing Mongol alliance",
+        "description": "CRITICAL: The actual Pope during your setting! Convened the Second Council of Lyon (1274) where Mongol alliance was a major topic. Desperately seeking alliance against Mamluks. Any papal envoys at Tabriz answer to him.",
+        "narrative": "THE POPE IN 1274. His Council of Lyon is happening during your timeframe. He's pushing hard for Mongol-Christian alliance. Aquinas and Bonaventure both die at/en route to HIS council. The political pressure for alliance comes from him personally."
+      },
+      "relationships": [
+        {
+          "figureId": "thomas-aquinas",
+          "type": "patron"
+        },
+        {
+          "figureId": "bonaventure",
+          "type": "patron"
+        },
+        {
+          "figureId": "abaqa-khan",
+          "type": "potential-ally"
+        },
+        {
+          "figureId": "michael-palaiologos",
+          "type": "diplomatic-partner"
+        }
+      ],
+      "historical": {
+        "summary": "Pope from 1271-1276. Convened the Second Council of Lyon (1274) which addressed church reform, crusade planning, and reunification with Byzantine church. Strongly supported Mongol alliance against Mamluks.",
+        "significance": "THE REIGNING POPE IN 1274. The Council of Lyon he convened discussed Mongol alliance as major policy. Both Aquinas and Bonaventure died in connection with this council. His diplomatic efforts shape the entire political context.",
+        "sources": ["Papal bulls", "Council of Lyon proceedings"]
+      },
+      "tags": ["papal", "pope", "1274-present", "council-of-lyon", "alliance-pusher", "crusader-politics", "alive-1274"],
+      "meta": {
+        "addedDate": "2026-01-07",
+        "lastModified": "2026-01-07"
+      }
+    },
+    {
+      "id": "michael-palaiologos",
+      "name": {
+        "primary": "Michael VIII Palaiologos",
+        "alternates": ["Michael VIII", "Michael Palaeologus"]
+      },
+      "dates": {
+        "birth": "1223",
+        "death": "1282",
+        "reign": {
+          "start": "1261",
+          "end": "1282"
+        }
+      },
+      "titles": [
+        {
+          "title": "Byzantine Emperor",
+          "description": "Emperor of the restored Byzantine Empire",
+          "period": "1261-1282"
+        }
+      ],
+      "category": "European Leaders",
+      "gameRelevance": {
+        "role": "Byzantine Emperor, father of Maria Palaiologina",
+        "description": "Byzantine Emperor in 1274. His daughter Maria Palaiologina is married to Abaqa Khan - she's Abaqa's ACTUAL wife during the game setting. This Byzantine-Mongol alliance is key to the political situation.",
+        "narrative": "His daughter is at the Tabriz court as Abaqa's wife! This Byzantine-Mongol alliance through marriage is crucial. He's balancing relations with Pope Gregory X, Mongols, and his own empire. His agents might be at court."
+      },
+      "relationships": [
+        {
+          "figureId": "maria-palaiologina",
+          "type": "father"
+        },
+        {
+          "figureId": "abaqa-khan",
+          "type": "son-in-law"
+        },
+        {
+          "figureId": "pope-gregory-x",
+          "type": "diplomatic-partner"
+        }
+      ],
+      "historical": {
+        "summary": "Byzantine Emperor who recaptured Constantinople from the Latins in 1261, restoring the Byzantine Empire. Pursued complex diplomacy with Papacy, Mongols, and other powers. Married his illegitimate daughter Maria to Abaqa Khan.",
+        "significance": "His daughter's marriage to Abaqa creates Byzantine-Mongol alliance. Participated in Council of Lyon 1274 negotiations. His diplomatic maneuvering shapes Mediterranean and Near Eastern politics.",
+        "sources": ["Byzantine chronicles", "George Pachymeres History"]
+      },
+      "tags": ["byzantine", "emperor", "greek", "1274-present", "diplomat", "alliance-maker", "alive-1274"],
+      "meta": {
+        "addedDate": "2026-01-07",
+        "lastModified": "2026-01-07"
+      }
+    },
+    {
+      "id": "maria-palaiologina",
+      "name": {
+        "primary": "Maria Palaiologina",
+        "alternates": ["Maria Despina Khatun", "Despina Khatun"]
+      },
+      "dates": {
+        "birth": "c. 1250",
+        "death": "after 1307"
+      },
+      "titles": [
+        {
+          "title": "Khatun",
+          "description": "Wife of Ilkhan Abaqa",
+          "period": "1265-1282"
+        },
+        {
+          "title": "Byzantine Princess",
+          "description": "Illegitimate daughter of Michael VIII Palaiologos",
+          "period": "birth-1282"
+        }
+      ],
+      "category": "Mongol Rulers & Nobility",
+      "gameRelevance": {
+        "role": "Abaqa's ACTUAL wife in 1274",
+        "description": "CRITICAL: She is Abaqa Khan's actual wife in 1274, NOT Dokuz Khatun (who died 1265). Byzantine princess, age ~24, living at the Tabriz court. Christian in a multicultural court. She should replace Dokuz Khatun in your scene!",
+        "narrative": "THE ACTUAL KHATUN AT COURT IN 1274! Byzantine Christian woman navigating Mongol court politics. Witness to everything. Could be a major character or even player character. Represents Byzantine-Mongol alliance through marriage. Lives until at least 1307."
+      },
+      "relationships": [
+        {
+          "figureId": "abaqa-khan",
+          "type": "spouse"
+        },
+        {
+          "figureId": "michael-palaiologos",
+          "type": "father"
+        },
+        {
+          "figureId": "arghun-khan",
+          "type": "step-son"
+        }
+      ],
+      "historical": {
+        "summary": "Illegitimate daughter of Byzantine Emperor Michael VIII Palaiologos. Married to Ilkhan Abaqa in 1265 as part of Byzantine-Mongol alliance. Known as Despina Khatun. Remained Christian at Mongol court. Survived Abaqa's death and lived until at least 1307.",
+        "significance": "ACTUAL WIFE OF ABAQA IN 1274. Key figure in Byzantine-Mongol alliance. Her Christian faith and Byzantine background make her a bridge between cultures. An insider at the exact court and time of your game.",
+        "sources": ["Byzantine chronicles", "Mongol sources mentioning Despina Khatun"]
+      },
+      "tags": ["byzantine", "khatun", "princess", "christian", "1274-present", "tabriz-court", "mongol-nobility", "alliance-symbol", "alive-1274"],
       "meta": {
         "addedDate": "2026-01-07",
         "lastModified": "2026-01-07"
