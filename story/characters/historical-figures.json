@@ -1,0 +1,1414 @@
+{
+  "schemaVersion": "1.0",
+  "lastUpdated": "2026-01-07",
+  "description": "Historical figures relevant to The Harvester's Sky murder mystery game, set in 1274 CE at the Mongol court in Tabriz",
+  "figures": [
+    {
+      "id": "genghis-khan",
+      "name": {
+        "primary": "Genghis Khan",
+        "alternates": ["Chinggis Khan", "Temüjin"]
+      },
+      "dates": {
+        "birth": "c. 1162",
+        "death": "1227",
+        "reign": {
+          "start": "1206",
+          "end": "1227"
+        }
+      },
+      "titles": [
+        {
+          "title": "Great Khan",
+          "description": "Supreme ruler of the Mongol Empire",
+          "period": "1206-1227"
+        }
+      ],
+      "category": "Mongol Rulers & Nobility",
+      "gameRelevance": {
+        "role": "Legendary founder figure",
+        "description": "Grandfather figure to the generation at court in 1274. His conquests set in motion the westward expansion that brought Mongols into contact with European powers and disturbed countless ancient sites."
+      },
+      "relationships": [
+        {
+          "figureId": "ogodei-khan",
+          "type": "father"
+        },
+        {
+          "figureId": "guyuk-khan",
+          "type": "grandfather"
+        }
+      ],
+      "historical": {
+        "summary": "Founded the Mongol Empire through unprecedented military conquests. United the Mongol tribes and established the largest contiguous land empire in history.",
+        "significance": "His campaigns disturbed ancient sites across Central Asia. His burial location remains unknown, hidden according to Mongol custom.",
+        "sources": ["The Secret History of the Mongols"]
+      },
+      "tags": ["mongol", "founder", "khan", "pre-1250", "legendary"],
+      "meta": {
+        "addedDate": "2026-01-07",
+        "lastModified": "2026-01-07"
+      }
+    },
+    {
+      "id": "guyuk-khan",
+      "name": {
+        "primary": "Güyük Khan",
+        "alternates": ["Guyuk", "Kuyuk"]
+      },
+      "dates": {
+        "birth": "c. 1206",
+        "death": "1248",
+        "reign": {
+          "start": "1246",
+          "end": "1248"
+        }
+      },
+      "titles": [
+        {
+          "title": "Great Khan",
+          "description": "Supreme ruler of the Mongol Empire",
+          "period": "1246-1248"
+        }
+      ],
+      "category": "Mongol Rulers & Nobility",
+      "gameRelevance": {
+        "role": "First khan to respond to papal diplomacy",
+        "description": "Responded to Pope Innocent IV's envoy with a theological counter-challenge, asserting Tengri's mandate over Christian authority. This exchange set the tone for Mongol-Papal relations."
+      },
+      "relationships": [
+        {
+          "figureId": "genghis-khan",
+          "type": "grandfather"
+        },
+        {
+          "figureId": "ogodei-khan",
+          "type": "father"
+        },
+        {
+          "figureId": "pope-innocent-iv",
+          "type": "diplomatic-correspondent"
+        },
+        {
+          "figureId": "giovanni-carpine",
+          "type": "met-envoy"
+        }
+      ],
+      "historical": {
+        "summary": "Third Great Khan, grandson of Genghis. Received Giovanni da Pian del Carpine and responded to papal conversion attempts with assertion of Tengri's supremacy.",
+        "significance": "His reply letter survives as a remarkable document of cross-cultural religious conflict. Died shortly after becoming khan.",
+        "sources": ["Historia Mongalorum by Giovanni da Pian del Carpine"]
+      },
+      "tags": ["mongol", "khan", "pre-1250", "papal-contact", "tengrist"],
+      "meta": {
+        "addedDate": "2026-01-07",
+        "lastModified": "2026-01-07"
+      }
+    },
+    {
+      "id": "hulagu-khan",
+      "name": {
+        "primary": "Hulagu Khan",
+        "alternates": ["Hülegü", "Hulegu"]
+      },
+      "dates": {
+        "birth": "1217",
+        "death": "1265",
+        "reign": {
+          "start": "1256",
+          "end": "1265"
+        }
+      },
+      "titles": [
+        {
+          "title": "Ilkhan",
+          "description": "Founder and first ruler of the Ilkhanate (Persian Mongol realm)",
+          "period": "1256-1265"
+        }
+      ],
+      "category": "Mongol Rulers & Nobility",
+      "gameRelevance": {
+        "role": "Founder of the Ilkhanate, disturber of ancient sites",
+        "description": "Sacked Baghdad in 1258, ending the Abbasid Caliphate. His campaigns through Mesopotamia, Syria, and Persia disturbed countless archaeological sites and ancient chambers.",
+        "narrative": "Father of Abaqa Khan. His conquests may have inadvertently awakened or disturbed the Sleepers. The siege works he ordered could have broken into kurgan chambers."
+      },
+      "relationships": [
+        {
+          "figureId": "abaqa-khan",
+          "type": "father"
+        },
+        {
+          "figureId": "dokuz-khatun",
+          "type": "spouse"
+        },
+        {
+          "figureId": "mongke-khan",
+          "type": "brother"
+        },
+        {
+          "figureId": "kublai-khan",
+          "type": "brother"
+        }
+      ],
+      "historical": {
+        "summary": "Founded the Ilkhanate through brutal conquests. Destroyed Baghdad, ending 500 years of Abbasid rule. His campaigns reached as far as Syria before being stopped by the Mamluks.",
+        "significance": "His destruction of ancient cities and disturbance of archaeological sites is directly relevant to the game's premise of awakening ancient horrors.",
+        "sources": ["Rashid al-Din's Jami' al-tawarikh", "Bar Hebraeus Chronicle"]
+      },
+      "tags": ["mongol", "ilkhan", "pre-1274", "conqueror", "baghdad-sacker", "kurgan-disturber", "christian-connections"],
+      "meta": {
+        "addedDate": "2026-01-07",
+        "lastModified": "2026-01-07"
+      }
+    },
+    {
+      "id": "abaqa-khan",
+      "name": {
+        "primary": "Abaqa Khan",
+        "alternates": ["Abagha", "Abaγa"]
+      },
+      "dates": {
+        "birth": "1234",
+        "death": "1282",
+        "reign": {
+          "start": "1265",
+          "end": "1282"
+        }
+      },
+      "titles": [
+        {
+          "title": "Ilkhan",
+          "description": "Second ruler of the Ilkhanate (Persian Mongol realm)",
+          "period": "1265-1282"
+        }
+      ],
+      "category": "Mongol Rulers & Nobility",
+      "gameRelevance": {
+        "role": "Host of the 1274 Tabriz court",
+        "description": "The khan whose court forms the physical and political setting of the game in 1274. His tolerance of multiple religions creates the unique multicultural atmosphere.",
+        "narrative": "THE central authority figure. His court is where the murder takes place. His diplomatic efforts with Europe form the political backdrop."
+      },
+      "relationships": [
+        {
+          "figureId": "hulagu-khan",
+          "type": "father"
+        },
+        {
+          "figureId": "dokuz-khatun",
+          "type": "spouse"
+        },
+        {
+          "figureId": "arghun-khan",
+          "type": "son"
+        },
+        {
+          "figureId": "philip-iv-france",
+          "type": "potential-ally"
+        },
+        {
+          "figureId": "baybars",
+          "type": "enemy"
+        }
+      ],
+      "historical": {
+        "summary": "Second Ilkhan of the Persian Mongol realm. Maintained his father's policies of religious tolerance and sought alliances with European Christian powers against the Mamluks. Married to Nestorian Christian wife.",
+        "significance": "Key figure in Franco-Mongol alliance attempts. His court at Tabriz was a crossroads of civilizations - Nestorian Christians, Buddhists, Muslims, and European envoys all present.",
+        "sources": ["Rashid al-Din's Jami' al-tawarikh", "Bar Hebraeus Chronicle", "Venetian merchant accounts"]
+      },
+      "tags": ["mongol", "ilkhan", "1274-present", "alliance-seeker", "christian-connections", "tabriz-court", "host"],
+      "meta": {
+        "addedDate": "2026-01-07",
+        "lastModified": "2026-01-07"
+      }
+    },
+    {
+      "id": "arghun-khan",
+      "name": {
+        "primary": "Arghun Khan",
+        "alternates": ["Arghun"]
+      },
+      "dates": {
+        "birth": "c. 1258",
+        "death": "1291",
+        "reign": {
+          "start": "1284",
+          "end": "1291"
+        }
+      },
+      "titles": [
+        {
+          "title": "Ilkhan",
+          "description": "Fourth ruler of the Ilkhanate",
+          "period": "1284-1291"
+        }
+      ],
+      "category": "Mongol Rulers & Nobility",
+      "gameRelevance": {
+        "role": "Future alliance-seeker, son of Abaqa",
+        "description": "Son of Abaqa Khan. In 1274 he would be a young man at court (around 16). Would later send the most serious alliance proposals to Europe.",
+        "narrative": "Could be a young observer or player character. His future diplomatic efforts show the continuation of alliance politics."
+      },
+      "relationships": [
+        {
+          "figureId": "abaqa-khan",
+          "type": "father"
+        },
+        {
+          "figureId": "pope-nicholas-iv",
+          "type": "future-correspondent"
+        },
+        {
+          "figureId": "philip-iv-france",
+          "type": "future-correspondent"
+        }
+      ],
+      "historical": {
+        "summary": "Son of Abaqa, became Ilkhan in 1284. Sent embassies to Pope Nicholas IV and Philip IV of France with serious alliance proposals including coordinated military campaigns.",
+        "significance": "His embassies were among the most serious Franco-Mongol alliance attempts, including detailed military planning.",
+        "sources": ["Rashid al-Din", "Venetian chronicles"]
+      },
+      "tags": ["mongol", "ilkhan", "1274-present", "post-1274", "alliance-seeker", "youth"],
+      "meta": {
+        "addedDate": "2026-01-07",
+        "lastModified": "2026-01-07"
+      }
+    },
+    {
+      "id": "dokuz-khatun",
+      "name": {
+        "primary": "Dokuz Khatun",
+        "alternates": ["Doquz Khatun"]
+      },
+      "dates": {
+        "birth": "unknown",
+        "death": "1265"
+      },
+      "titles": [
+        {
+          "title": "Khatun",
+          "description": "Wife/mother figure at Mongol court, Nestorian Christian",
+          "period": "1250s-1265"
+        }
+      ],
+      "category": "Mongol Rulers & Nobility",
+      "gameRelevance": {
+        "role": "Composite character representing Christian influence at court",
+        "description": "Influential Nestorian Christian figure at the Mongol court. Historically died before 1274, but figures like her were present. Represents the Christian connection that made papal envoys hopeful.",
+        "narrative": "Could appear as a character despite historical death date, or be referenced as recent memory. Her faith and political influence make her significant to alliance politics and religious mystery."
+      },
+      "relationships": [
+        {
+          "figureId": "hulagu-khan",
+          "type": "spouse"
+        },
+        {
+          "figureId": "abaqa-khan",
+          "type": "spouse"
+        }
+      ],
+      "historical": {
+        "summary": "Powerful Nestorian Christian woman at the Ilkhanate court. Married to both Hulagu and later his son Abaqa (following Mongol levirate marriage customs). Used her influence to protect Christians.",
+        "significance": "Symbol of Christian presence in Mongol court. Her influence gave papal envoys hope for conversion and alliance.",
+        "sources": ["Bar Hebraeus Chronicle", "William of Rubruck accounts"]
+      },
+      "tags": ["mongol", "khatun", "nestorian", "christian", "pre-1274", "influential-woman", "christian-connections"],
+      "meta": {
+        "addedDate": "2026-01-07",
+        "lastModified": "2026-01-07"
+      }
+    },
+    {
+      "id": "pope-innocent-iv",
+      "name": {
+        "primary": "Pope Innocent IV",
+        "alternates": ["Sinibaldo Fieschi"]
+      },
+      "dates": {
+        "birth": "c. 1195",
+        "death": "1254",
+        "reign": {
+          "start": "1243",
+          "end": "1254"
+        }
+      },
+      "titles": [
+        {
+          "title": "Pope",
+          "description": "Head of the Catholic Church",
+          "period": "1243-1254"
+        }
+      ],
+      "category": "Papal Envoys & Friars",
+      "gameRelevance": {
+        "role": "Initiator of Mongol-Papal diplomacy",
+        "description": "First pope to establish direct diplomatic contact with the Mongol Empire. His envoys opened the channels that would lead to the 1274 court situation.",
+        "narrative": "Historical background for why papal envoys are at the Mongol court. His letters show the mix of Christian missionary zeal and political pragmatism."
+      },
+      "relationships": [
+        {
+          "figureId": "guyuk-khan",
+          "type": "diplomatic-correspondent"
+        },
+        {
+          "figureId": "giovanni-carpine",
+          "type": "patron"
+        }
+      ],
+      "historical": {
+        "summary": "Sent the first papal envoys to the Mongol Empire in 1245. His letters urged the Mongols to cease expansion and accept Christianity, mixing religious and political concerns.",
+        "significance": "Initiated the diplomatic relationship that brought European envoys to Mongol courts for the next 50 years.",
+        "sources": ["Papal letters", "Historia Mongalorum"]
+      },
+      "tags": ["papal", "christian", "pre-1274", "diplomat", "european"],
+      "meta": {
+        "addedDate": "2026-01-07",
+        "lastModified": "2026-01-07"
+      }
+    },
+    {
+      "id": "giovanni-carpine",
+      "name": {
+        "primary": "Giovanni da Pian del Carpine",
+        "alternates": ["John of Plano Carpini"]
+      },
+      "dates": {
+        "birth": "c. 1185",
+        "death": "1252"
+      },
+      "titles": [
+        {
+          "title": "Franciscan Friar",
+          "description": "Papal envoy to the Mongol Empire",
+          "period": "1245-1247"
+        }
+      ],
+      "category": "Papal Envoys & Friars",
+      "gameRelevance": {
+        "role": "First European to document Mongol court",
+        "description": "First papal envoy to reach the Mongol court (1245-1247). His account, Historia Mongalorum, provided detailed descriptions of Mongol customs and would be known to later envoys.",
+        "narrative": "His writings would be carried by later envoys. Could be referenced as the pioneering figure who opened the East to papal diplomacy."
+      },
+      "relationships": [
+        {
+          "figureId": "pope-innocent-iv",
+          "type": "patron"
+        },
+        {
+          "figureId": "guyuk-khan",
+          "type": "met-envoy"
+        }
+      ],
+      "historical": {
+        "summary": "Franciscan friar sent by Pope Innocent IV to the Mongol Empire. Arrived during Güyük Khan's enthronement. Traveled thousands of miles through hostile territory and returned with detailed accounts.",
+        "significance": "His Historia Mongalorum was the first detailed European account of the Mongol Empire, influencing European understanding for decades.",
+        "sources": ["Historia Mongalorum quos nos Tartaros appellamus"]
+      },
+      "tags": ["papal", "envoy", "franciscan", "pre-1274", "traveler", "chronicler", "european"],
+      "meta": {
+        "addedDate": "2026-01-07",
+        "lastModified": "2026-01-07"
+      }
+    },
+    {
+      "id": "william-rubruck",
+      "name": {
+        "primary": "William of Rubruck",
+        "alternates": ["Willem van Ruysbroeck", "Guillaume de Rubrouck"]
+      },
+      "dates": {
+        "birth": "c. 1220",
+        "death": "c. 1293"
+      },
+      "titles": [
+        {
+          "title": "Franciscan Friar",
+          "description": "Missionary and diplomat to the Mongol Empire",
+          "period": "1253-1255"
+        }
+      ],
+      "category": "Papal Envoys & Friars",
+      "gameRelevance": {
+        "role": "Detailed chronicler of Mongol customs",
+        "description": "Traveled to the Mongol court (1253-1255) on behalf of Louis IX of France. His detailed account describes shamanic practices, religious debates, and the multicultural court.",
+        "narrative": "His descriptions of shamanism and religious complexity inform the game's atmosphere. Could still be alive in 1274."
+      },
+      "relationships": [
+        {
+          "figureId": "mongke-khan",
+          "type": "met-envoy"
+        },
+        {
+          "figureId": "louis-ix-france",
+          "type": "patron"
+        }
+      ],
+      "historical": {
+        "summary": "Franciscan missionary sent to convert the Mongols. Traveled through the steppes, witnessed shamanic practices, and participated in religious debates at Möngke Khan's court.",
+        "significance": "His account provides rich ethnographic detail about Mongol religious practices, shamanism, and court life. More detailed than Carpine's earlier account.",
+        "sources": ["The Journey of William of Rubruck to the Eastern Parts"]
+      },
+      "tags": ["papal", "envoy", "franciscan", "pre-1274", "traveler", "chronicler", "european", "alive-1274"],
+      "meta": {
+        "addedDate": "2026-01-07",
+        "lastModified": "2026-01-07"
+      }
+    },
+    {
+      "id": "pope-nicholas-iv",
+      "name": {
+        "primary": "Pope Nicholas IV",
+        "alternates": ["Girolamo Masci"]
+      },
+      "dates": {
+        "birth": "1227",
+        "death": "1292",
+        "reign": {
+          "start": "1288",
+          "end": "1292"
+        }
+      },
+      "titles": [
+        {
+          "title": "Pope",
+          "description": "Head of the Catholic Church",
+          "period": "1288-1292"
+        }
+      ],
+      "category": "Papal Envoys & Friars",
+      "gameRelevance": {
+        "role": "Future recipient of Mongol alliance proposals",
+        "description": "Would later receive letters from Arghun Khan proposing joint military action. In 1274 he is not yet pope but represents the continuing papal interest in Mongol alliance.",
+        "narrative": "Post-1274 figure showing the continuation of alliance politics."
+      },
+      "relationships": [
+        {
+          "figureId": "arghun-khan",
+          "type": "future-correspondent"
+        }
+      ],
+      "historical": {
+        "summary": "First Franciscan pope. Received multiple embassies from Arghun Khan with detailed alliance proposals including coordinated attacks on Mamluk territories.",
+        "significance": "His papacy represented a serious moment in Franco-Mongol diplomacy, though ultimately unsuccessful.",
+        "sources": ["Papal correspondence", "Mongol embassy records"]
+      },
+      "tags": ["papal", "post-1274", "franciscan", "diplomat", "european"],
+      "meta": {
+        "addedDate": "2026-01-07",
+        "lastModified": "2026-01-07"
+      }
+    },
+    {
+      "id": "philip-iv-france",
+      "name": {
+        "primary": "Philip IV of France",
+        "alternates": ["Philip the Fair", "Philippe le Bel"]
+      },
+      "dates": {
+        "birth": "1268",
+        "death": "1314",
+        "reign": {
+          "start": "1285",
+          "end": "1314"
+        }
+      },
+      "titles": [
+        {
+          "title": "King of France",
+          "description": "Monarch of the Kingdom of France",
+          "period": "1285-1314"
+        }
+      ],
+      "category": "European Leaders",
+      "gameRelevance": {
+        "role": "Future target of Mongol alliance proposals",
+        "description": "In 1274 he is only 6 years old. Would later receive multiple Mongol embassies proposing coordinated campaigns. Represents European political interest in Eastern alliance.",
+        "narrative": "Post-1274 relevance. Shows that alliance politics continued but never materialized into action."
+      },
+      "relationships": [
+        {
+          "figureId": "arghun-khan",
+          "type": "future-correspondent"
+        }
+      ],
+      "historical": {
+        "summary": "King of France known for centralizing power and conflicts with the Papacy. Received Mongol embassies but was more focused on consolidating French power than distant crusading.",
+        "significance": "Represents the European reluctance to commit troops to Eastern campaigns despite diplomatic interest.",
+        "sources": ["French royal chronicles", "Mongol embassy accounts"]
+      },
+      "tags": ["european", "french", "post-1274", "potential-ally", "crusader-politics"],
+      "meta": {
+        "addedDate": "2026-01-07",
+        "lastModified": "2026-01-07"
+      }
+    },
+    {
+      "id": "edward-longshanks",
+      "name": {
+        "primary": "Lord Edward of England",
+        "alternates": ["Edward I", "Edward Longshanks"]
+      },
+      "dates": {
+        "birth": "1239",
+        "death": "1307",
+        "reign": {
+          "start": "1272",
+          "end": "1307"
+        }
+      },
+      "titles": [
+        {
+          "title": "Prince of England",
+          "description": "Heir to English throne, crusader",
+          "period": "1239-1272"
+        },
+        {
+          "title": "King of England",
+          "description": "Monarch of England",
+          "period": "1272-1307"
+        }
+      ],
+      "category": "European Leaders",
+      "gameRelevance": {
+        "role": "Active crusader in 1271-1272",
+        "description": "Led the Ninth Crusade (1271-1272), arriving in the Holy Land with a small force. His campaign overlaps closely with the 1274 setting - he would be returning or recently returned.",
+        "narrative": "Could be referenced as active in the region. His small crusading force shows European weakness and the need for Mongol alliance."
+      },
+      "relationships": [
+        {
+          "figureId": "baybars",
+          "type": "enemy"
+        }
+      ],
+      "historical": {
+        "summary": "Led a small crusade to the Holy Land (1271-1272). His campaign was militarily ineffective but established diplomatic contacts. Became king while in the East when his father died.",
+        "significance": "His crusade showed European military weakness. Narrowly survived assassination attempt by Assassins. Represents the final gasp of crusading energy.",
+        "sources": ["English chronicles", "Crusader accounts"]
+      },
+      "tags": ["european", "english", "crusader", "1274-present", "warrior", "recent-crusader"],
+      "meta": {
+        "addedDate": "2026-01-07",
+        "lastModified": "2026-01-07"
+      }
+    },
+    {
+      "id": "baybars",
+      "name": {
+        "primary": "Baybars",
+        "alternates": ["Al-Malik al-Zahir Rukn al-Din Baybars al-Bunduqdari"]
+      },
+      "dates": {
+        "birth": "c. 1223",
+        "death": "1277",
+        "reign": {
+          "start": "1260",
+          "end": "1277"
+        }
+      },
+      "titles": [
+        {
+          "title": "Sultan of Egypt and Syria",
+          "description": "Mamluk ruler who defeated the Mongols",
+          "period": "1260-1277"
+        }
+      ],
+      "category": "Mamluk Leaders",
+      "gameRelevance": {
+        "role": "Victor of Ain Jalut, primary antagonist",
+        "description": "Victor at the Battle of Ain Jalut (1260), the first major defeat of the Mongols. In 1274 he is at the height of his power, the enemy that makes Mongol-European alliance urgent.",
+        "narrative": "THE enemy. His victory at Ain Jalut could be the moment when ancient things were disturbed. His spies might be at the Tabriz court."
+      },
+      "relationships": [
+        {
+          "figureId": "qutuz",
+          "type": "rival"
+        },
+        {
+          "figureId": "abaqa-khan",
+          "type": "enemy"
+        },
+        {
+          "figureId": "edward-longshanks",
+          "type": "enemy"
+        }
+      ],
+      "historical": {
+        "summary": "Former slave-soldier (Mamluk) who became sultan. Brilliant military strategist who defeated Mongols at Ain Jalut and halted their expansion. Assassinated Qutuz shortly after the victory.",
+        "significance": "Shifted the balance of power in the region. His success made him the primary threat to both Mongols and Crusader states, driving alliance attempts.",
+        "sources": ["Ibn al-Furat chronicles", "Mamluk historical texts"]
+      },
+      "tags": ["mamluk", "sultan", "1274-present", "warrior", "victor-ain-jalut", "mongol-enemy"],
+      "meta": {
+        "addedDate": "2026-01-07",
+        "lastModified": "2026-01-07"
+      }
+    },
+    {
+      "id": "qutuz",
+      "name": {
+        "primary": "Qutuz",
+        "alternates": ["Al-Malik al-Muzaffar Sayf ad-Din Qutuz"]
+      },
+      "dates": {
+        "birth": "unknown",
+        "death": "1260",
+        "reign": {
+          "start": "1259",
+          "end": "1260"
+        }
+      },
+      "titles": [
+        {
+          "title": "Sultan of Egypt",
+          "description": "Mamluk ruler who led forces at Ain Jalut",
+          "period": "1259-1260"
+        }
+      ],
+      "category": "Mamluk Leaders",
+      "gameRelevance": {
+        "role": "Leader at Ain Jalut before assassination",
+        "description": "Led Mamluk forces at the Battle of Ain Jalut (1260), defeating the Mongols. Executed Mongol envoys demanding surrender. Assassinated by Baybars shortly after the victory.",
+        "narrative": "Key figure in the Ain Jalut battle. His death immediately after suggests political intrigue. Could the battle have disturbed something that affected those present?"
+      },
+      "relationships": [
+        {
+          "figureId": "baybars",
+          "type": "rival"
+        }
+      ],
+      "historical": {
+        "summary": "Mamluk sultan who organized the successful defense against Mongol invasion. Led the coalition that fought at Ain Jalut. Murdered by Baybars on the return journey to Cairo.",
+        "significance": "His brief reign and immediate assassination suggest the political chaos around Ain Jalut. Rare example of successful Mongol defeat.",
+        "sources": ["Mamluk chronicles", "Ibn Taghribirdi"]
+      },
+      "tags": ["mamluk", "sultan", "pre-1274", "ain-jalut", "murdered"],
+      "meta": {
+        "addedDate": "2026-01-07",
+        "lastModified": "2026-01-07"
+      }
+    },
+    {
+      "id": "herodotus",
+      "name": {
+        "primary": "Herodotus",
+        "alternates": ["Herodotus of Halicarnassus"]
+      },
+      "dates": {
+        "birth": "c. 484 BCE",
+        "death": "c. 425 BCE"
+      },
+      "titles": [
+        {
+          "title": "Historian",
+          "description": "Greek historian, 'Father of History'",
+          "period": "5th century BCE"
+        }
+      ],
+      "category": "Ancient Sources",
+      "gameRelevance": {
+        "role": "Primary source on Scythian customs",
+        "description": "Greek historian whose Histories (Book IV) describes Scythian customs that sound almost Lovecraftian: drinking from enemy skulls, ritual intoxication, prophecy through sticks, kurgan burials.",
+        "narrative": "His texts would be known to educated characters. His descriptions provide the historical basis for Scythian ritual knowledge."
+      },
+      "relationships": [],
+      "historical": {
+        "summary": "Greek historian who traveled and documented the peoples of the known world. His account of the Scythians is the primary ancient source on their culture and practices.",
+        "significance": "His descriptions of Scythian rituals, kurgans, and customs provide historical grounding for the game's Scythian mystery elements.",
+        "sources": ["Histories, Book IV"]
+      },
+      "tags": ["ancient", "greek", "historian", "scythian-expert", "source-text"],
+      "meta": {
+        "addedDate": "2026-01-07",
+        "lastModified": "2026-01-07"
+      }
+    },
+    {
+      "id": "mongke-khan",
+      "name": {
+        "primary": "Möngke Khan",
+        "alternates": ["Mongke", "Mangu"]
+      },
+      "dates": {
+        "birth": "1209",
+        "death": "1259",
+        "reign": {
+          "start": "1251",
+          "end": "1259"
+        }
+      },
+      "titles": [
+        {
+          "title": "Great Khan",
+          "description": "Fourth Great Khan of the Mongol Empire",
+          "period": "1251-1259"
+        }
+      ],
+      "category": "Mongol Rulers & Nobility",
+      "gameRelevance": {
+        "role": "Brother of Hulagu, previous Great Khan",
+        "description": "Fourth Great Khan, brother of Hulagu and Kublai. Organized the campaigns that led to Baghdad's fall. Died during campaign in China.",
+        "narrative": "His reign saw the continuation of western expansion. Brother to multiple key figures."
+      },
+      "relationships": [
+        {
+          "figureId": "hulagu-khan",
+          "type": "brother"
+        },
+        {
+          "figureId": "kublai-khan",
+          "type": "brother"
+        },
+        {
+          "figureId": "william-rubruck",
+          "type": "met-envoy"
+        }
+      ],
+      "historical": {
+        "summary": "Great Khan who ordered the campaigns against Baghdad and Song China. Received William of Rubruck. Presided over religious debates at his court.",
+        "significance": "His orders set in motion Hulagu's campaigns in the Middle East. His court showed religious tolerance.",
+        "sources": ["Rashid al-Din", "William of Rubruck's account"]
+      },
+      "tags": ["mongol", "khan", "pre-1274", "great-khan"],
+      "meta": {
+        "addedDate": "2026-01-07",
+        "lastModified": "2026-01-07"
+      }
+    },
+    {
+      "id": "kublai-khan",
+      "name": {
+        "primary": "Kublai Khan",
+        "alternates": ["Khubilai"]
+      },
+      "dates": {
+        "birth": "1215",
+        "death": "1294",
+        "reign": {
+          "start": "1260",
+          "end": "1294"
+        }
+      },
+      "titles": [
+        {
+          "title": "Great Khan",
+          "description": "Fifth Great Khan, founder of Yuan Dynasty in China",
+          "period": "1260-1294"
+        },
+        {
+          "title": "Emperor of China",
+          "description": "Founder of Yuan Dynasty",
+          "period": "1271-1294"
+        }
+      ],
+      "category": "Mongol Rulers & Nobility",
+      "gameRelevance": {
+        "role": "Great Khan in China during 1274",
+        "description": "Brother of Hulagu, ruling from China in 1274. Represents the eastern branch of Mongol power. His court in China is where Marco Polo claims to have visited.",
+        "narrative": "Distant authority figure. The Ilkhanate theoretically answers to him but is practically independent."
+      },
+      "relationships": [
+        {
+          "figureId": "hulagu-khan",
+          "type": "brother"
+        },
+        {
+          "figureId": "mongke-khan",
+          "type": "brother"
+        },
+        {
+          "figureId": "marco-polo",
+          "type": "potential-host"
+        }
+      ],
+      "historical": {
+        "summary": "Founded the Yuan Dynasty in China, completing the Mongol conquest of Song China. Most famous Mongol khan to Western audiences due to Marco Polo's accounts.",
+        "significance": "Represents the eastern branch of Mongol power. His rivalry with Kaidu shows fractures in Mongol unity.",
+        "sources": ["Marco Polo's Travels", "Yuan Dynasty records"]
+      },
+      "tags": ["mongol", "khan", "great-khan", "yuan-dynasty", "1274-present", "china"],
+      "meta": {
+        "addedDate": "2026-01-07",
+        "lastModified": "2026-01-07"
+      }
+    },
+    {
+      "id": "berke-khan",
+      "name": {
+        "primary": "Berke Khan",
+        "alternates": ["Berke"]
+      },
+      "dates": {
+        "birth": "unknown",
+        "death": "1266",
+        "reign": {
+          "start": "1257",
+          "end": "1266"
+        }
+      },
+      "titles": [
+        {
+          "title": "Khan of the Golden Horde",
+          "description": "Ruler of western Mongol territories",
+          "period": "1257-1266"
+        }
+      ],
+      "category": "Mongol Rulers & Nobility",
+      "gameRelevance": {
+        "role": "Muslim Mongol khan, rival to Ilkhanate",
+        "description": "First Mongol khan to convert to Islam. Ruled the Golden Horde (Russian territories). His conflict with Hulagu shows Mongol division along religious lines.",
+        "narrative": "Represents the religious fractures within the Mongol Empire. His Muslim identity and alliance with Mamluks against fellow Mongols shows complex politics."
+      },
+      "relationships": [
+        {
+          "figureId": "hulagu-khan",
+          "type": "rival"
+        },
+        {
+          "figureId": "baybars",
+          "type": "ally"
+        }
+      ],
+      "historical": {
+        "summary": "Khan of the Golden Horde who converted to Islam. Fought against his cousin Hulagu, allied with the Mamluks. First major religious division within the Mongol Empire.",
+        "significance": "His conversion and alliance with Mamluks against fellow Mongols shows the fracturing of Mongol unity along religious and political lines.",
+        "sources": ["Golden Horde chronicles", "Mamluk records"]
+      },
+      "tags": ["mongol", "khan", "golden-horde", "muslim", "pre-1274", "rival", "religious-convert"],
+      "meta": {
+        "addedDate": "2026-01-07",
+        "lastModified": "2026-01-07"
+      }
+    },
+    {
+      "id": "kaidu",
+      "name": {
+        "primary": "Kaidu",
+        "alternates": ["Qaidu"]
+      },
+      "dates": {
+        "birth": "c. 1236",
+        "death": "1301",
+        "reign": {
+          "start": "1269",
+          "end": "1301"
+        }
+      },
+      "titles": [
+        {
+          "title": "Khan of Central Asia",
+          "description": "Rival khan challenging Kublai's authority",
+          "period": "1269-1301"
+        }
+      ],
+      "category": "Mongol Rulers & Nobility",
+      "gameRelevance": {
+        "role": "Rebel khan showing Mongol fractures",
+        "description": "Rival khan in Central Asia who challenged Kublai's authority. In 1274 his rebellion is ongoing, showing the fracturing of Mongol unity.",
+        "narrative": "Represents internal Mongol conflict. His rebellion means Central Asian routes are dangerous, affecting trade and diplomacy."
+      },
+      "relationships": [
+        {
+          "figureId": "kublai-khan",
+          "type": "rival"
+        }
+      ],
+      "historical": {
+        "summary": "Grandson of Ögedei Khan who challenged Kublai's authority from Central Asia. Led a decades-long rebellion, controlling key trade routes.",
+        "significance": "His rebellion fractured Mongol unity and made the Silk Road dangerous, affecting trade and diplomatic communications.",
+        "sources": ["Rashid al-Din", "Yuan Dynasty records"]
+      },
+      "tags": ["mongol", "khan", "rebel", "1274-present", "central-asia", "rival"],
+      "meta": {
+        "addedDate": "2026-01-07",
+        "lastModified": "2026-01-07"
+      }
+    },
+    {
+      "id": "rabban-bar-sauma",
+      "name": {
+        "primary": "Rabban Bar Sauma",
+        "alternates": ["Rabban Sauma"]
+      },
+      "dates": {
+        "birth": "c. 1220",
+        "death": "1294"
+      },
+      "titles": [
+        {
+          "title": "Nestorian Monk",
+          "description": "Diplomat and traveler",
+          "period": "1250s-1294"
+        }
+      ],
+      "category": "Nestorian Christians",
+      "gameRelevance": {
+        "role": "Nestorian monk who traveled to Europe",
+        "description": "Nestorian monk of Turkic origin who traveled from China to Europe (1287-1288). In 1274 he might be traveling or already in the Middle East. Unique figure traveling west while Europeans travel east.",
+        "narrative": "Could be present at court or arriving. His journey reverses the usual direction - an Eastern Christian visiting Rome and Paris. Perfect character for bridging cultures."
+      },
+      "relationships": [
+        {
+          "figureId": "mar-yaballaha-iii",
+          "type": "traveling-companion"
+        }
+      ],
+      "historical": {
+        "summary": "Nestorian monk from Beijing who traveled westward as a pilgrim, eventually becoming a diplomat. Visited Constantinople, Rome, Paris, and Bordeaux on behalf of the Ilkhanate.",
+        "significance": "Unique reversal of East-West travel. His accounts of Europe from an Eastern Christian perspective are remarkable historical documents.",
+        "sources": ["The Monks of Kublai Khan", "Syriac chronicles"]
+      },
+      "tags": ["nestorian", "monk", "traveler", "diplomat", "1274-present", "east-to-west", "alive-1274"],
+      "meta": {
+        "addedDate": "2026-01-07",
+        "lastModified": "2026-01-07"
+      }
+    },
+    {
+      "id": "mar-yaballaha-iii",
+      "name": {
+        "primary": "Mar Yaballaha III",
+        "alternates": ["Yahballaha"]
+      },
+      "dates": {
+        "birth": "1245",
+        "death": "1317",
+        "reign": {
+          "start": "1281",
+          "end": "1317"
+        }
+      },
+      "titles": [
+        {
+          "title": "Patriarch of the East",
+          "description": "Nestorian Patriarch",
+          "period": "1281-1317"
+        }
+      ],
+      "category": "Nestorian Christians",
+      "gameRelevance": {
+        "role": "Future Nestorian Patriarch, possible character",
+        "description": "In 1274 he is 29 years old, traveling with Rabban Bar Sauma. Would later become Nestorian Patriarch. Born in Beijing, of Ongud Turkic descent.",
+        "narrative": "Could be a character at court. Young, educated, multilingual. His future elevation to Patriarch shows Nestorian church connections."
+      },
+      "relationships": [
+        {
+          "figureId": "rabban-bar-sauma",
+          "type": "traveling-companion"
+        }
+      ],
+      "historical": {
+        "summary": "Born in Beijing as Marcos, traveled westward with Rabban Bar Sauma on pilgrimage. Became Nestorian Patriarch in 1281 despite being ethnically Mongol and Chinese-educated.",
+        "significance": "His election as Patriarch shows the cosmopolitan nature of Nestorian Christianity. Represents East Asian Christians in Middle Eastern church hierarchy.",
+        "sources": ["Syriac chronicles", "The Monks of Kublai Khan"]
+      },
+      "tags": ["nestorian", "patriarch", "post-1274", "traveler", "1274-present", "young", "alive-1274"],
+      "meta": {
+        "addedDate": "2026-01-07",
+        "lastModified": "2026-01-07"
+      }
+    },
+    {
+      "id": "louis-ix-france",
+      "name": {
+        "primary": "Louis IX of France",
+        "alternates": ["Saint Louis"]
+      },
+      "dates": {
+        "birth": "1214",
+        "death": "1270",
+        "reign": {
+          "start": "1226",
+          "end": "1270"
+        }
+      },
+      "titles": [
+        {
+          "title": "King of France",
+          "description": "Crusader king, later canonized",
+          "period": "1226-1270"
+        }
+      ],
+      "category": "European Leaders",
+      "gameRelevance": {
+        "role": "Recently deceased crusader king",
+        "description": "Died in 1270 during the Eighth Crusade. Sent William of Rubruck to the Mongols. His death is recent memory in 1274, his crusading legacy still influential.",
+        "narrative": "Recently dead (4 years). His failed crusades and diplomatic outreach to Mongols set the stage for 1274 politics. Could be referenced as 'the sainted king.'"
+      },
+      "relationships": [
+        {
+          "figureId": "william-rubruck",
+          "type": "patron"
+        }
+      ],
+      "historical": {
+        "summary": "King of France who led two crusades (7th and 8th). Sent William of Rubruck to the Mongols seeking alliance. Died of disease during crusade in Tunis. Later canonized.",
+        "significance": "Represents the height of crusading idealism. His diplomatic efforts with Mongols showed French interest in Eastern alliance.",
+        "sources": ["Jean de Joinville's Life of Saint Louis", "French chronicles"]
+      },
+      "tags": ["european", "french", "crusader", "pre-1274", "saint", "diplomat", "recently-deceased"],
+      "meta": {
+        "addedDate": "2026-01-07",
+        "lastModified": "2026-01-07"
+      }
+    },
+    {
+      "id": "hugh-iii-cyprus",
+      "name": {
+        "primary": "Hugh III of Cyprus",
+        "alternates": ["Hugh of Antioch-Lusignan"]
+      },
+      "dates": {
+        "birth": "1235",
+        "death": "1284",
+        "reign": {
+          "start": "1267",
+          "end": "1284"
+        }
+      },
+      "titles": [
+        {
+          "title": "King of Cyprus and Jerusalem",
+          "description": "Crusader state ruler",
+          "period": "1267-1284"
+        }
+      ],
+      "category": "European Leaders",
+      "gameRelevance": {
+        "role": "Crusader state ruler in 1274",
+        "description": "King of Cyprus and titular King of Jerusalem in 1274. Rules the closest crusader state to Mongol territory. Desperate for allies against Mamluks.",
+        "narrative": "Could send representatives to Tabriz. His crusader state is under constant Mamluk pressure, making Mongol alliance vital to his survival."
+      },
+      "relationships": [
+        {
+          "figureId": "baybars",
+          "type": "enemy"
+        }
+      ],
+      "historical": {
+        "summary": "Ruled Cyprus and claimed Jerusalem during a period of crusader state decline. Faced constant Mamluk pressure and tried to maintain relationships with remaining crusader territories.",
+        "significance": "Represents the desperate situation of crusader states. His need for Mongol alliance mirrors papal interests.",
+        "sources": ["Crusader chronicles", "Templar of Tyre"]
+      },
+      "tags": ["european", "crusader", "king", "1274-present", "cyprus", "jerusalem-claimant", "alliance-seeker"],
+      "meta": {
+        "addedDate": "2026-01-07",
+        "lastModified": "2026-01-07"
+      }
+    },
+    {
+      "id": "nasir-al-din-tusi",
+      "name": {
+        "primary": "Nasir al-Din al-Tusi",
+        "alternates": ["Tusi"]
+      },
+      "dates": {
+        "birth": "1201",
+        "death": "1274"
+      },
+      "titles": [
+        {
+          "title": "Polymath",
+          "description": "Persian astronomer, mathematician, philosopher",
+          "period": "1220s-1274"
+        }
+      ],
+      "category": "Islamic Scholars",
+      "gameRelevance": {
+        "role": "Scholar at Mongol court, dying in 1274",
+        "description": "Persian polymath who served the Mongols. Astronomer, mathematician, philosopher. DIES IN 1274 - could he be the victim? Or die of natural causes that mask something else?",
+        "narrative": "CRITICAL: His death date matches the game year exactly. Historically important scholar who served both Assassins and Mongols. Perfect victim candidate."
+      },
+      "relationships": [
+        {
+          "figureId": "hulagu-khan",
+          "type": "advisor"
+        }
+      ],
+      "historical": {
+        "summary": "Brilliant polymath who served Hulagu Khan. Built an observatory at Maragheh. Made advances in astronomy, mathematics, and philosophy. Controversially served both Assassins and Mongols.",
+        "significance": "One of the most important medieval scientists. His astronomical work influenced later Islamic and European science. His death in 1274 is historically documented.",
+        "sources": ["His own astronomical works", "Persian biographical dictionaries"]
+      },
+      "tags": ["persian", "scholar", "astronomer", "philosopher", "1274-present", "ilkhanate-court", "dies-1274", "potential-victim"],
+      "meta": {
+        "addedDate": "2026-01-07",
+        "lastModified": "2026-01-07"
+      }
+    },
+    {
+      "id": "rashid-al-din",
+      "name": {
+        "primary": "Rashid al-Din",
+        "alternates": ["Rashid-ad-Din Hamadani"]
+      },
+      "dates": {
+        "birth": "c. 1247",
+        "death": "1318"
+      },
+      "titles": [
+        {
+          "title": "Historian and Vizier",
+          "description": "Persian historian at Ilkhanate court",
+          "period": "1290s-1318"
+        }
+      ],
+      "category": "Islamic Scholars",
+      "gameRelevance": {
+        "role": "Young scholar in 1274, future historian",
+        "description": "In 1274 he is about 27 years old. Would later become vizier and write the Jami' al-tawarikh (Compendium of Chronicles), the primary source on Mongol history.",
+        "narrative": "Could be a young scholar at court. His future historical work means he might be recording events, taking notes, observing. Perfect investigator character."
+      },
+      "relationships": [],
+      "historical": {
+        "summary": "Persian Jewish convert to Islam who became Ilkhanate vizier. Wrote the Jami' al-tawarikh, a comprehensive world history that is our primary source for Mongol history.",
+        "significance": "His historical work preserves much of what we know about the Ilkhanate. His diverse background (Jewish-born, Muslim convert, Persian intellectual) shows court cosmopolitanism.",
+        "sources": ["Jami' al-tawarikh (his own work)"]
+      },
+      "tags": ["persian", "historian", "scholar", "1274-present", "young", "observer", "alive-1274"],
+      "meta": {
+        "addedDate": "2026-01-07",
+        "lastModified": "2026-01-07"
+      }
+    },
+    {
+      "id": "marco-polo",
+      "name": {
+        "primary": "Marco Polo",
+        "alternates": ["Marco"]
+      },
+      "dates": {
+        "birth": "1254",
+        "death": "1324"
+      },
+      "titles": [
+        {
+          "title": "Venetian Merchant",
+          "description": "Traveler and merchant",
+          "period": "1271-1295"
+        }
+      ],
+      "category": "Travelers & Merchants",
+      "gameRelevance": {
+        "role": "Young traveler, possibly on the road in 1274",
+        "description": "20 years old in 1274. According to his account, traveling east with his father and uncle. Claims to have reached Kublai Khan's court around 1275. Could be on the Silk Road in 1274.",
+        "narrative": "Optional character. Young Venetian merchant's son traveling east. Could encounter the Tabriz court or pass through. His account's reliability is debated."
+      },
+      "relationships": [
+        {
+          "figureId": "kublai-khan",
+          "type": "potential-host"
+        }
+      ],
+      "historical": {
+        "summary": "Venetian merchant who claimed to have traveled to China and served Kublai Khan for 17 years. His account, The Travels, became a medieval bestseller though historians debate its accuracy.",
+        "significance": "Most famous European traveler to the East, though his account is controversial. His stories shaped European imagination of Asia for centuries.",
+        "sources": ["The Travels of Marco Polo (Il Milione)"]
+      },
+      "tags": ["venetian", "merchant", "traveler", "1274-present", "young", "controversial", "silk-road"],
+      "meta": {
+        "addedDate": "2026-01-07",
+        "lastModified": "2026-01-07"
+      }
+    },
+    {
+      "id": "ibn-battuta",
+      "name": {
+        "primary": "Ibn Battuta",
+        "alternates": ["Abu Abdullah Muhammad ibn Battuta"]
+      },
+      "dates": {
+        "birth": "1304",
+        "death": "1368-1369"
+      },
+      "titles": [
+        {
+          "title": "Scholar and Explorer",
+          "description": "Moroccan traveler",
+          "period": "1325-1354"
+        }
+      ],
+      "category": "Travelers & Merchants",
+      "gameRelevance": {
+        "role": "Later traveler archetype",
+        "description": "Born 30 years after the game setting. Included as an example of Islamic scholarly travelers who documented the Mongol-dominated world.",
+        "narrative": "Not present in 1274. Reference only. Shows the tradition of Muslim scholarly travelers."
+      },
+      "relationships": [],
+      "historical": {
+        "summary": "Moroccan scholar who traveled over 75,000 miles across the Islamic world and beyond. His Rihla (travels) documents the 14th century Dar al-Islam.",
+        "significance": "Greatest medieval traveler. His accounts document the post-Mongol Islamic world, showing long-term effects of Mongol conquests.",
+        "sources": ["The Rihla (his travel account)"]
+      },
+      "tags": ["moroccan", "traveler", "scholar", "post-1274", "islamic", "later-period"],
+      "meta": {
+        "addedDate": "2026-01-07",
+        "lastModified": "2026-01-07"
+      }
+    },
+    {
+      "id": "anacharsis",
+      "name": {
+        "primary": "Anacharsis",
+        "alternates": ["Anacharsis the Scythian"]
+      },
+      "dates": {
+        "birth": "c. 600 BCE",
+        "death": "unknown"
+      },
+      "titles": [
+        {
+          "title": "Philosopher",
+          "description": "Legendary Scythian wise man",
+          "period": "6th century BCE"
+        }
+      ],
+      "category": "Scythian Figures",
+      "gameRelevance": {
+        "role": "Legendary Scythian philosopher",
+        "description": "Semi-legendary Scythian who allegedly visited Greece and became known for wisdom. Represents the idea of Scythian knowledge being recognized even by Greeks.",
+        "narrative": "Could be referenced in texts. Shows that Scythians weren't just barbarians but had philosophical traditions. Adds depth to Scythian lore."
+      },
+      "relationships": [],
+      "historical": {
+        "summary": "Semi-legendary Scythian prince who allegedly traveled to Athens and became one of the Seven Sages. Stories about him mix history and legend.",
+        "significance": "Represents Greek fascination with Scythian 'noble savage' wisdom. His legendary status shows how Scythians captured Greek imagination.",
+        "sources": ["Herodotus", "Plutarch", "Diogenes Laertius"]
+      },
+      "tags": ["scythian", "philosopher", "ancient", "legendary", "greek-contact"],
+      "meta": {
+        "addedDate": "2026-01-07",
+        "lastModified": "2026-01-07"
+      }
+    },
+    {
+      "id": "tomyris",
+      "name": {
+        "primary": "Tomyris",
+        "alternates": ["Queen Tomyris"]
+      },
+      "dates": {
+        "birth": "unknown",
+        "death": "unknown"
+      },
+      "titles": [
+        {
+          "title": "Queen of the Massagetae",
+          "description": "Scythian/Saka queen who defeated Cyrus the Great",
+          "period": "6th century BCE"
+        }
+      ],
+      "category": "Scythian Figures",
+      "gameRelevance": {
+        "role": "Legendary Scythian warrior queen",
+        "description": "Scythian queen who defeated and killed Cyrus the Great of Persia. According to Herodotus, she placed his severed head in a wineskin full of blood, saying 'I warned you I would quench your thirst for blood.'",
+        "narrative": "Could be referenced in Scythian lore. Her brutal victory and blood ritual fit cosmic horror themes. Shows Scythian power and ritual violence."
+      },
+      "relationships": [],
+      "historical": {
+        "summary": "Queen of the Massagetae (Scythian/Saka people) who defeated Cyrus the Great in battle around 530 BCE. Herodotus describes her ritual desecration of his corpse.",
+        "significance": "Legendary example of Scythian military prowess and ritual practices. Her story shows the blood-soaked steppes where kurgans stand.",
+        "sources": ["Herodotus Histories Book I"]
+      },
+      "tags": ["scythian", "queen", "warrior", "ancient", "legendary", "blood-ritual"],
+      "meta": {
+        "addedDate": "2026-01-07",
+        "lastModified": "2026-01-07"
+      }
+    },
+    {
+      "id": "ogodei-khan",
+      "name": {
+        "primary": "Ögödei Khan",
+        "alternates": ["Ogedei", "Ogodai"]
+      },
+      "dates": {
+        "birth": "1186",
+        "death": "1241",
+        "reign": {
+          "start": "1229",
+          "end": "1241"
+        }
+      },
+      "titles": [
+        {
+          "title": "Great Khan",
+          "description": "Second Great Khan, son of Genghis",
+          "period": "1229-1241"
+        }
+      ],
+      "category": "Mongol Rulers & Nobility",
+      "gameRelevance": {
+        "role": "Historical context - continued expansion",
+        "description": "Second Great Khan, son of Genghis. Continued westward expansion into Europe and Middle East. His death caused the Mongol withdrawal from Europe.",
+        "narrative": "Background figure. His conquests continued disturbing ancient sites. Grandfather to some characters at the 1274 court."
+      },
+      "relationships": [
+        {
+          "figureId": "genghis-khan",
+          "type": "father"
+        },
+        {
+          "figureId": "guyuk-khan",
+          "type": "father"
+        },
+        {
+          "figureId": "kaidu",
+          "type": "grandfather"
+        }
+      ],
+      "historical": {
+        "summary": "Second Great Khan who continued Mongol expansion. Ordered invasions of Europe that reached Hungary and Poland before his death caused withdrawal.",
+        "significance": "His conquests expanded the empire to its greatest extent in the west. His administrative reforms helped consolidate Mongol rule.",
+        "sources": ["The Secret History", "Rashid al-Din"]
+      },
+      "tags": ["mongol", "khan", "great-khan", "pre-1250", "conqueror"],
+      "meta": {
+        "addedDate": "2026-01-07",
+        "lastModified": "2026-01-07"
+      }
+    },
+    {
+      "id": "batu-khan",
+      "name": {
+        "primary": "Batu Khan",
+        "alternates": ["Batu"]
+      },
+      "dates": {
+        "birth": "c. 1205",
+        "death": "1255",
+        "reign": {
+          "start": "1227",
+          "end": "1255"
+        }
+      },
+      "titles": [
+        {
+          "title": "Khan of the Golden Horde",
+          "description": "Founder of Golden Horde, conqueror of Russia",
+          "period": "1227-1255"
+        }
+      ],
+      "category": "Mongol Rulers & Nobility",
+      "gameRelevance": {
+        "role": "Historical context - western conquests",
+        "description": "Founded the Golden Horde through conquest of Russia and Eastern Europe. His campaigns brought Mongols into contact with Slavic and Eastern Orthodox Christianity.",
+        "narrative": "Background figure. His conquests in the north mirror Hulagu's in the south. His descendants rule the Golden Horde in 1274."
+      },
+      "relationships": [
+        {
+          "figureId": "berke-khan",
+          "type": "predecessor"
+        }
+      ],
+      "historical": {
+        "summary": "Grandson of Genghis who led the invasion of Russia and Eastern Europe. Founded the Golden Horde which ruled Russian principalities for centuries.",
+        "significance": "His conquests brought Mongols into sustained contact with Orthodox Christianity and Slavic culture. Established Mongol rule over Russia.",
+        "sources": ["Russian chronicles", "Golden Horde records"]
+      },
+      "tags": ["mongol", "khan", "golden-horde", "pre-1274", "russia", "conqueror"],
+      "meta": {
+        "addedDate": "2026-01-07",
+        "lastModified": "2026-01-07"
+      }
+    }
+  ]
+}
